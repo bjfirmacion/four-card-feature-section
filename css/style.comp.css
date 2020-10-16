@@ -91,7 +91,8 @@ body {
   @media only screen and (max-width: 42em) {
     .cards {
       display: flex;
-      flex-direction: column; } }
+      flex-direction: column;
+      justify-content: flex-start; } }
   .cards__card {
     max-width: 35rem;
     height: 25rem;
