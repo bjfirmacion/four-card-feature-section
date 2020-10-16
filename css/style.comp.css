@@ -105,6 +105,9 @@ body {
     @media only screen and (max-width: 75em) {
       .cards__card {
         padding: 2.7rem; } }
+    @media only screen and (max-width: 42em) {
+      .cards__card:not(:last-child) {
+        margin-bottom: 2.5rem; } }
     .cards__card--1 {
       border-color: var(--cyan);
       grid-row: 1 / -1; }

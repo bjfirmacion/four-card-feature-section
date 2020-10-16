@@ -31,6 +31,12 @@
       padding: 2.7rem;
     }
 
+    @include respond(large-mobile) {
+      &:not(:last-child) {
+        margin-bottom: 2.5rem;
+      }
+    }
+
     &--1 {
       border-color: var(--cyan);
       grid-row: 1 / -1;
