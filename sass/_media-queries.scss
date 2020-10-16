@@ -1,0 +1,17 @@
+@mixin respond($width) {
+  @if $width == laptop {
+    @media only screen and (max-width: 90em) { @content }; // up to 1440px
+  }
+  @if $width == tablet-landscape {
+    @media only screen and (max-width: 75em) { @content }; // up to 1200px
+  }
+  @if $width == tablet-portrait {
+    @media only screen and (max-width: 47.5em) { @content }; // up to 760px
+  }
+  @if $width == large-mobile {
+    @media only screen and (max-width: 42em) { @content }; // up to 672px
+  }
+  @if $width == mobile {
+    @media only screen and (max-width: 32em) { @content }; // up to 512px
+  }
+}

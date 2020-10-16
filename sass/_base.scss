@@ -1,0 +1,28 @@
+// ========== VARIABLES ==========
+:root {
+// COLORS
+--red: hsl(0, 78%, 62%);
+--cyan: hsl(180, 62%, 55%);
+--orange: hsl(34, 97%, 64%);
+--blue: hsl(212, 86%, 64%);
+
+--dark-blue: hsl(234, 12%, 34%);
+--grayish-blue: hsl(229, 6%, 66%);
+--light-gray: hsl(0, 0%, 98%);
+
+// SHADOWS
+--card-shadow: 0 15px 30px -11px rgba(131,166,210,0.50);
+}
+
+// ========== RESETS ==========
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // sets 1 rem = 10px (based on 16px browser default)
+}
